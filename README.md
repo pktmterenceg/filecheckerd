@@ -15,7 +15,7 @@ only known Mac malware | all known malware, irrespective of platform[1]
 definitions irregularly updated | definitions updated all the time (uses cymru.com API)
 
 
-* we live in a dual- (or multi-) boot world. EveTo exclude Windows or Linux malware commits the same sort of error ("But the Mac is only 10% of the market!") that people previously used to justify igorning the Mac market. I personally [railed against this kind of thinking](http://en.wikipedia.org/wiki/PocketMac) for years. I used to make my living arguing the other side of that. 
+* we live in a dual- (or multi-) boot world. To exclude Windows or Linux malware commits the same sort of error ("But the Mac is only 10% of the market!") that people previously used to justify igorning the Mac market. I personally [railed against this kind of thinking](http://en.wikipedia.org/wiki/PocketMac) for years. I used to make my living arguing the other side of that. 
 
 * if you like filecheckerd, please, please consider using the link below to donate to the good folks at cymru.com, upon whose backend API this product relies. 
 
@@ -38,11 +38,13 @@ definitions irregularly updated | definitions updated all the time (uses cymru.c
 ### Download
 
 ideally, you'd get this from github, build it, and be on your way. 
-if that's not your style, though, you can get it pre-built from me at [http://www.gogg.in](http://www.gogg.in).
+if that's not your style, though, you can get it pre-built from me at [http://www.gogg.in](http://www.gogg.in). eventually. 
 
 ### Issues
 * I don't know what will happen if more than one users is logged in w/r/t to where the hashed file will be quarantined. 
 * could use some preferences and/or a preference pane. 
+* you'll need to download & build the XNU source. http://shantonu.blogspot.de/2012/07/building-xnu-for-os-x-108-mountain-lion.html or http://shantonu.blogspot.de/2013/10/building-xnu-for-os-x-109-mavericks.html for details.
+
 
 filecheckerd is Copyright 2014 Terence Goggin. Portions are Copyright Amit Singh. 
  * Source released under the GNU GENERAL PUBLIC LICENSE (GPL) Version 2.0.

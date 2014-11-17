@@ -37,7 +37,7 @@ void initPrivateLog(){
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         if (privatelog == 0) {
-            privatelog = fopen([kLogFilePath UTF8String], "at");
+            privatelog = fopen([kLogFilePath UTF8String], "wt"); //changed to "wt" to keep log size reasonable
             if (!privatelog) privatelog = fopen([kLogFilePath UTF8String], "wt");
             if (!privatelog) {
                 NSLog(kErrMsg_CantOpenLog);
